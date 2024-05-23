@@ -1,0 +1,57 @@
+/* Header section styling */
+#header {
+    background-color: #4a4a4a;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+/* Logo styling */
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+/* Button styling */
+button {
+    background-color: white;
+    border: none;
+    color: #4a4a4a;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+    padding: 10px 20px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #ccc;
+}
+
+/* Main heading styling */
+h1 {
+    color: #ff4500;
+}
+
+/* Products container styling */
+#products {
+    display: flex;
+    gap: 25px;
+    margin-top: 100px;
+}
+
+/* Individual product container styling */
+.product {
+    background-color: #ff4500;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* Aligning product name above the product box */
+.product-container h3 {
+    text-align: center;
+}
